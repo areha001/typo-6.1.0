@@ -66,3 +66,38 @@ img.centered {
     line-height: 1;
     padding: 4px;
 }
+#page .row{
+  margin-left: 0px\9;
+}
+#sidebar{
+  float:right\9;
+}
+#page .row .span8{
+  float:left\9;
+}
+.navbar .nav li {
+    display: block\9;
+    float: left\9;
+}
+.navbar .nav li a{
+    color: #999999\9;
+    float: none\9;
+    display:block\9;
+    line-height: 19px\9;
+    padding-bottom: 11px\9;
+    padding-left: 10px\9;
+    padding-right: 10px\9;
+    padding-top: 10px\9;
+}
+pre{
+    width:580px\9;
+    overflow:hidden\9;
+    overflow-x:scroll\9;
+}
+.CodeRay pre{
+    border:none;
+}
+[class*="span"] {
+  float: left;
+  margin-left: 0px\9;
+}
