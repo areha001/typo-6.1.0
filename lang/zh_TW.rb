@@ -2,113 +2,113 @@
 Localization.define("zh_TW") do |l|
 
   # app/controllers/accounts_controller.rb
-  l.store "Login successful", ""
-  l.store "Login unsuccessful", ""
-  l.store "An email has been successfully sent to your address with your new password", ""
-  l.store "Oops, something wrong just happened", ""
-  l.store "Successfully logged out", ""
-  l.store "login", ""
-  l.store "signup", ""
-  l.store "Recover your password", ""
+  l.store "Login successful", "登录成功"
+  l.store "Login unsuccessful", "登录失败"
+  l.store "An email has been successfully sent to your address with your new password", "带有您新密码的邮件已发出"
+  l.store "Oops, something wrong just happened", "> oo <  出错啦"
+  l.store "Successfully logged out", "您已成功登出"
+  l.store "login", "登录"
+  l.store "signup", "注册"
+  l.store "Recover your password", "修改密码"
 
   # app/controllers/admin/categories_controller.rb
-  l.store "Category was successfully saved.", ""
-  l.store "Category could not be saved.", ""
+  l.store "Category was successfully saved.", "分类已保存"
+  l.store "Category could not be saved.", "分类保存失败"
 
   # app/controllers/admin/content_controller.rb
-  l.store "Error, you are not allowed to perform this action", ""
-  l.store "Preview", ""
-  l.store "Article was successfully created", ""
-  l.store "Article was successfully updated.", ""
+  l.store "Error, you are not allowed to perform this action", "出现问题，你没有权限"
+  l.store "Preview", "预览"
+  l.store "Article was successfully created", "文章发表成功"
+  l.store "Article was successfully updated.", "文章更新成功"
 
   # app/controllers/admin/feedback_controller.rb
-  l.store "Deleted", ""
-  l.store "Not found", ""
-  l.store "Deleted %d item(s)", ""
-  l.store "Marked %d item(s) as Ham", ""
-  l.store "Marked %d item(s) as Spam", ""
-  l.store "Confirmed classification of %s item(s)", ""
-  l.store "Not implemented", ""
-  l.store "All spam have been deleted", ""
-  l.store "Comment was successfully created.", ""
-  l.store "Comment was successfully updated.", ""
+  l.store "Deleted", "已删除"
+  l.store "Not found", "未找到"
+  l.store "Deleted %d item(s)", "删除了 %d 条记录"
+  l.store "Marked %d item(s) as Ham", "删除了 %d 个 Ham"
+  l.store "Marked %d item(s) as Spam", "删除了 %d 个 垃圾评论"
+  l.store "Confirmed classification of %s item(s)", " 确认 %s 条记录的分类"
+  l.store "Not implemented", "未生效"
+  l.store "All spam have been deleted", "所有被列为垃圾(spam)的条目都已经删除"
+  l.store "Comment was successfully created.", "回复创建成功"
+  l.store "Comment was successfully updated.", "回复修改成功"
 
   # app/controllers/admin/pages_controller.rb
-  l.store "Page was successfully created.", ""
-  l.store "Page was successfully updated.", ""
+  l.store "Page was successfully created.", "页面创建成功"
+  l.store "Page was successfully updated.", "页面修改成功"
 
   # app/controllers/admin/profiles_controller.rb
-  l.store "User was successfully updated.", ""
+  l.store "User was successfully updated.", "用户修改成功"
 
   # app/controllers/admin/resources_controller.rb
-  l.store "Error occurred while updating Content Type.", "當更新內容類型時發生錯誤"
+  l.store "Error occurred while updating Content Type.", "更新内容时发生错误"
   l.store "complete", "完成"
-  l.store "File uploaded: ", "檔案上傳: "
-  l.store "Unable to upload", "不能被上傳"
+  l.store "File uploaded: ", "文件上传: "
+  l.store "Unable to upload", "无法上传"
   l.store "Metadata was successfully updated.", "Metadata已成功更新"
-  l.store "Not all metadata was defined correctly.", "並非所有Metadata已被正確定義"
-  l.store "Content Type was successfully updated.", "內容類型已被成功更新"
+  l.store "Not all metadata was defined correctly.", "并非所有Metadata已被正确定义"
+  l.store "Content Type was successfully updated.", "內容类型已被成功更新"
 
   # app/controllers/admin/settings_controller.rb
   l.store "Please review and save the settings before continuing", ""
-  l.store "config updated.", "更新設定"
+  l.store "config updated.", "更新设定"
 
   # app/controllers/admin/sidebar_controller.rb
   l.store "It seems something went wrong. Maybe some of your sidebars are actually missing and you should either reinstall them or remove them manually", ""
 
   # app/controllers/admin/tags_controller.rb
-  l.store "Tag was successfully updated.", ""
+  l.store "Tag was successfully updated.", "Tag 编辑成功"
 
   # app/controllers/admin/themes_controller.rb
-  l.store "Theme changed successfully", ""
-  l.store "You are not authorized to open this file", ""
-  l.store "File saved successfully", ""
-  l.store "Unable to write file", ""
+  l.store "Theme changed successfully", "风格切换成功"
+  l.store "You are not authorized to open this file", "你未授权访问此文件"
+  l.store "File saved successfully", "文件保存成功"
+  l.store "Unable to write file", "无法写入文件"
 
   # app/controllers/admin/users_controller.rb
-  l.store "User was successfully created.", ""
+  l.store "User was successfully created.", "用户创建成功"
 
   # app/controllers/application_controller.rb
   l.store "Localization.rtl", ""
 
   # app/controllers/articles_controller.rb
-  l.store "No posts found...", ""
+  l.store "No posts found...", "未找到文章"
   l.store "Archives for", ""
   l.store "Archives for ", ""
   l.store ", Articles for ", ""
 
   # app/controllers/grouping_controller.rb
-  l.store "page", ""
-  l.store "everything about", ""
+  l.store "page", "页面"
+  l.store "everything about", "有关于"
 
   # app/helpers/admin/base_helper.rb
   l.store "Cancel", "取消"
-  l.store "Store", ""
+  l.store "Store", "存储"
   l.store "Delete", "刪除"
-  l.store "delete", ""
-  l.store "Delete content", ""
-  l.store "Are you sure?", ""
-  l.store "Please select", ""
-  l.store "There are no %s yet. Why don't you start and create one?", ""
+  l.store "delete", "删除"
+  l.store "Delete content", "删除内容"
+  l.store "Are you sure?", "你确定吗？"
+  l.store "Please select", "请选择"
+  l.store "There are no %s yet. Why don't you start and create one?", "暂时没有 %s "
   l.store "or", "或"
-  l.store "Save", "存檔"
+  l.store "Save", "保存"
   l.store "Edit", "修改"
-  l.store "Show", ""
-  l.store "Published", "已公開的"
-  l.store "Unpublished", ""
-  l.store "Show help on Typo macros", ""
-  l.store "Back to overview", "回到概覽"
+  l.store "Show", "查看"
+  l.store "Published", "已发布的"
+  l.store "Unpublished", "未发布的"
+  l.store "Show help on Typo macros", "显示 Typo 帮助"
+  l.store "Back to overview", "回到概览"
   l.store "Name", "名字"
-  l.store "Description", "説明"
+  l.store "Description", "说明"
   l.store "Tag", ""
 
   # app/helpers/admin/categories_helper.rb
-  l.store "no articles", ""
-  l.store "1 article", ""
-  l.store "%d articles", ""
+  l.store "no articles", "没有文章"
+  l.store "1 article", "1 篇文章"
+  l.store "%d articles", "%d 篇文章"
 
   # app/helpers/admin/content_helper.rb
-  l.store "Destroy this draft", ""
+  l.store "Destroy this draft", "删除此草稿"
 
   # app/helpers/admin/feedback_helper.rb
   l.store "Show conversation", ""
@@ -117,19 +117,19 @@ Localization.define("zh_TW") do |l|
   # app/helpers/application_helper.rb
   l.store "%%a, %%d %%b %%Y %%H:%%M:%%S GMT", ""
   l.store "%%d. %%b", ""
-  l.store "%d comments", ""
-  l.store "no comments", "沒有評論"
-  l.store "1 comment", ""
-  l.store "no trackbacks", "沒有引用"
+  l.store "%d comments", "%d 个评论"
+  l.store "no comments", "没有评论"
+  l.store "1 comment", "1 个评论"
+  l.store "no trackbacks", "没有引用"
   l.store "1 trackback", ""
   l.store "%d trackbacks", ""
 
   # app/helpers/content_helper.rb
   l.store "Posted in", ""
-  l.store "Tags", "標示標籤"
-  l.store "no posts", ""
-  l.store "1 post", ""
-  l.store "%d posts", ""
+  l.store "Tags", ""
+  l.store "no posts", "没有文章"
+  l.store "1 post", "1 篇文章"
+  l.store "%d posts", "%d 篇文章"
 
   # app/models/article.rb
   l.store "Original article writen by", ""
@@ -154,8 +154,8 @@ Localization.define("zh_TW") do |l|
 
   # app/views/accounts/login.html.erb
   l.store "I've lost my password", ""
-  l.store "Login", "登入"
-  l.store "Password", "密碼"
+  l.store "Login", "登录"
+  l.store "Password", "密码"
   l.store "Remember me", ""
   l.store "Submit", ""
   l.store "Back to ", ""
@@ -164,26 +164,26 @@ Localization.define("zh_TW") do |l|
   l.store "Username or email", ""
 
   # app/views/accounts/signup.html.erb
-  l.store "Create an account", ""
-  l.store "Username", "名稱"
+  l.store "Create an account", "创建一个帐号"
+  l.store "Username", "名称"
   l.store "Email", "Email"
-  l.store "Signup", "註冊"
+  l.store "Signup", "注册"
 
   # app/views/admin/categories/_categories.html.erb
-  l.store "Title", "標題"
+  l.store "Title", "标题"
   l.store "Reorder", "重新排序"
-  l.store "Sort alphabetically", "依字母順序排序"
+  l.store "Sort alphabetically", "依字母顺序排序"
 
   # app/views/admin/categories/_form.html.erb
-  l.store "Keywords", ""
+  l.store "Keywords", "关键字"
 
   # app/views/admin/categories/destroy.html.erb
-  l.store "Are you sure you want to delete the category ", "確認刪除此分類？ "
-  l.store "Delete this category", "刪除分類"
-  l.store "Categories", "分類"
+  l.store "Are you sure you want to delete the category ", "确认删除此分类？ "
+  l.store "Delete this category", "删除分类"
+  l.store "Categories", "分类"
 
   # app/views/admin/categories/index.html.erb
-  l.store "New Category", ""
+  l.store "New Category", "新建分类"
 
   # app/views/admin/categories/new.html.erb
   l.store "%s Category", ""
@@ -199,48 +199,48 @@ Localization.define("zh_TW") do |l|
   l.store "Add Another Attachment", "新增其他附件"
 
   # app/views/admin/content/_drafts.html.erb
-  l.store "Drafts", ""
+  l.store "Drafts", "草稿"
 
   # app/views/admin/content/_form.html.erb
-  l.store "Publish settings", ""
-  l.store "Allow comments", "允許評論"
-  l.store "Allow trackbacks", "允許引用"
-  l.store "Password:", ""
-  l.store "Publish", "公開"
+  l.store "Publish settings", "发布设置"
+  l.store "Allow comments", "允许评论"
+  l.store "Allow trackbacks", "允许引用"
+  l.store "Password:", "密码"
+  l.store "Publish", "公开"
   l.store "Excerpt", ""
   l.store "Excerpts are posts summaries that are shown on your blog homepage only but won’t appear on the post itself", ""
-  l.store "Uploads", "上載"
+  l.store "Uploads", "上传"
   l.store "Post settings", ""
-  l.store "Publish at", "公開"
-  l.store "Permalink", "固定連接"
-  l.store "Article filter", "篩選文章"
-  l.store "Save as draft", ""
+  l.store "Publish at", "公开"
+  l.store "Permalink", "固定链接"
+  l.store "Article filter", "筛选文章"
+  l.store "Save as draft", "保存草稿"
 
   # app/views/admin/content/destroy.html.erb
-  l.store "Are you sure you want to delete this article", "確定刪除本篇文章？"
-  l.store "Delete this article", "刪除本篇文章"
+  l.store "Are you sure you want to delete this article", "确定删除本篇文章？"
+  l.store "Delete this article", "删除本篇文章"
   l.store "Articles", "文章"
 
   # app/views/admin/content/index.html.erb
-  l.store "New Article", ""
-  l.store "Search articles that contain ...", ""
-  l.store "Search", ""
+  l.store "New Article", "写文章"
+  l.store "Search articles that contain ...", "搜索文章带有..."
+  l.store "Search", "搜索"
   l.store "Author", "作者"
-  l.store "Date", ""
-  l.store "Feedback", "回應"
-  l.store "Filter", ""
-  l.store "Manage articles", ""
+  l.store "Date", "日期"
+  l.store "Feedback", "回复"
+  l.store "Filter", "过滤"
+  l.store "Manage articles", "管理文章"
 
   # app/views/admin/dashboard/_comments.html.erb
-  l.store "Latest Comments", "最近評論"
-  l.store "No comments yet", "沒有任何評論"
+  l.store "Latest Comments", "最近评论"
+  l.store "No comments yet", "沒有任何评论"
   l.store "By %s on %s", ""
 
   # app/views/admin/dashboard/_inbound.html.erb
-  l.store "Inbound links", "導入連結"
-  l.store "No one made a link to you yet", "目前沒有人連結到你"
-  l.store " made a link to you saying ", "連結到你，並且說"
-  l.store "You have no internet connection", "你沒有連結到網路"
+  l.store "Inbound links", "导入链接"
+  l.store "No one made a link to you yet", "目前沒有人链接到你"
+  l.store " made a link to you saying ", "链接到你，并说"
+  l.store "You have no internet connection", "你没有连接到网络"
 
   # app/views/admin/dashboard/_overview.html.erb
   l.store "This place gives you a quick overview of what happens on your Typo blog and what you can do. Maybe will you want to %s, %s or %s.", "這個地方給你一個快速的綜覽，讓你知道你的部落格發生甚麼事情了。也許你想要%s， %s或%s"
@@ -248,29 +248,29 @@ Localization.define("zh_TW") do |l|
   l.store "You can also do a bit of design, %s or %s.", "你也可以作一些設計, %s或%s."
   l.store "change your blog presentation", "修改你的部落格外觀"
   l.store "enable plugins", "啟動plugins"
-  l.store "write a post", "寫一篇文章"
-  l.store "write a page", "寫一個頁面"
+  l.store "write a post", "写一篇文章"
+  l.store "write a page", "新建一个頁面"
 
   # app/views/admin/dashboard/_popular.html.erb
-  l.store "Most popular", "最受歡迎"
-  l.store "Nothing to show yet", "還沒有東西"
+  l.store "Most popular", "最受欢迎"
+  l.store "Nothing to show yet", "还没有东西"
 
   # app/views/admin/dashboard/_posts.html.erb
-  l.store "Latest Posts", ""
-  l.store "No posts yet, why don't you start and write one", "你還沒有發文"
+  l.store "Latest Posts", "最新文章"
+  l.store "No posts yet, why don't you start and write one", "你还没有写任何文章，随便写点什么吧"
 
   # app/views/admin/dashboard/_typo_dev.html.erb
-  l.store "Latest news from the Typo development blog", "Typo開發部落格的最新消息"
-  l.store "Oh no, nothing new", "沒有新訊息"
+  l.store "Latest news from the Typo development blog", "Typo开发Blog的最新消息"
+  l.store "Oh no, nothing new", "啊哦，没有任何新消息"
 
   # app/views/admin/dashboard/_welcome.html.erb
-  l.store "Welcome back, %s!", "歡迎回來， %s！"
-  l.store "%d articles and %d comments were posted since your last connexion", ""
-  l.store "You're running Typo %s", "你現在是使用Typo %s"
-  l.store "Total posts : %d", "發文總計：%d"
-  l.store "Your posts : %d", "你的發文：%d"
-  l.store "Total comments : %d", "評論總計：%d"
-  l.store "Spam comments : %d", "垃圾評論：%d"
+  l.store "Welcome back, %s!", "欢迎回来， %s！"
+  l.store "%d articles and %d comments were posted since your last connexion", "这次回来新增了 %d 篇文章和 %d 条回复"
+  l.store "You're running Typo %s", "你现在正在使用Typo %s"
+  l.store "Total posts : %d", "文章总数：%d"
+  l.store "Your posts : %d", "你的文章：%d"
+  l.store "Total comments : %d", "评论总数：%d"
+  l.store "Spam comments : %d", "垃圾评论：%d"
 
   # app/views/admin/feedback/_button.html.erb
   l.store "Select action", ""
@@ -281,7 +281,7 @@ Localization.define("zh_TW") do |l|
   l.store "All comments", ""
   l.store "Limit to ham", ""
   l.store "Unapproved comments", ""
-  l.store "Limit to spam", "限制垃圾郵件"
+  l.store "Limit to spam", "限制垃圾邮件"
 
   # app/views/admin/feedback/_form.html.erb
   l.store "Add a comment", ""
@@ -297,21 +297,21 @@ Localization.define("zh_TW") do |l|
   l.store "Comment", ""
 
   # app/views/admin/feedback/edit.html.erb
-  l.store "Comments for", "做出評論"
+  l.store "Comments for", "发表评论"
 
   # app/views/admin/feedback/index.html.erb
   l.store "Search Comments and Trackbacks that contain", ""
   l.store "Article", ""
 
   # app/views/admin/pages/_form.html.erb
-  l.store "Online", "上線"
+  l.store "Online", "在线"
   l.store "Page settings", ""
   l.store "Permanent link", ""
 
   # app/views/admin/pages/destroy.html.erb
-  l.store "Pages","頁數"
-  l.store "Are you sure you want to delete the page", "你確定要刪除此頁？"
-  l.store "Delete this page", "刪除此頁"
+  l.store "Pages","页面"
+  l.store "Are you sure you want to delete the page", "你確定要删除此页？"
+  l.store "Delete this page", "删除此页"
 
   # app/views/admin/pages/index.html.erb
   l.store "New Page", ""
@@ -321,76 +321,76 @@ Localization.define("zh_TW") do |l|
   l.store "Your profile", ""
 
   # app/views/admin/resources/_mime_edit.html.erb
-  l.store "Content Type", "內容類型"
+  l.store "Content Type", "內容类型"
 
   # app/views/admin/resources/_pages.html.erb
-  l.store "Previous page", "前一頁"
-  l.store "Next page", "下一頁"
+  l.store "Previous page", "上一页"
+  l.store "Next page", "下一页"
 
   # app/views/admin/resources/_upload.html.erb
-  l.store "Upload a File to your Site", "上傳一個檔案到你的網點"
-  l.store "File", "檔案"
-  l.store "Upload", "上傳"
+  l.store "Upload a File to your Site", "上传一个文件"
+  l.store "File", "文件"
+  l.store "Upload", "上传"
 
   # app/views/admin/resources/destroy.html.erb
-  l.store "Are you sure you want to delete this file", "你確定要刪除此檔案？"
-  l.store "Delete this file from the webserver?", "從網路伺服器刪除此檔案？"
-  l.store "File Uploads", "檔案上載"
+  l.store "Are you sure you want to delete this file", "你确定要删除此文件？"
+  l.store "Delete this file from the webserver?", "从服务器上删除此文件？"
+  l.store "File Uploads", "文件上传"
 
   # app/views/admin/resources/images.html.erb
-  l.store "Thumbnail", ""
-  l.store "File Size", "檔案大小"
-  l.store "Images", ""
-  l.store "right-click for link", "右鍵連結"
+  l.store "Thumbnail", "缩略图"
+  l.store "File Size", "文件大小"
+  l.store "Images", "图片"
+  l.store "right-click for link", "右键链接"
 
   # app/views/admin/resources/index.html.erb
-  l.store "Filename", "檔案名稱"
+  l.store "Filename", "文件名"
 
   # app/views/admin/settings/_submit.html.erb
   l.store "Update settings", ""
 
   # app/views/admin/settings/feedback.html.erb
-  l.store "Enable comments by default", "預設為可以回應"
-  l.store "Enable Trackbacks by default", "預設為可以引用"
-  l.store "Enable feedback moderation", "適度可以反饋"
-  l.store "You can enable site wide feeback moderation. If you do so, no comment or trackback will appear on your blog unless you validate it", "你可以設定網點範圍有限度的反饋。這麼做將不會有任何評論引用出現在你的部落格，除非你使之生效"
-  l.store "Comments filter", "篩選評論"
+  l.store "Enable comments by default", "默认可以回复"
+  l.store "Enable Trackbacks by default", "默认可以引用"
+  l.store "Enable feedback moderation", "启动反馈节制"
+  l.store "You can enable site wide feeback moderation. If you do so, no comment or trackback will appear on your blog unless you validate it", "你可以设定在你的博客里，只有被审核过的评论才能显示"
+  l.store "Comments filter", "筛选评论"
   l.store "Enable gravatars", "可以顯示留言大頭貼"
   l.store "Show your email address", "秀出你的email位址"
   l.store "Notifications", ""
   l.store "Typo can notify you when new articles or comments are posted", "當新的文章或評論被貼上時typo會通知你"
   l.store "Source Email", "原始email"
   l.store "Email address used by Typo to send notifications", "email位址使用typo發出通知"
-  l.store "Enabling spam protection will make typo compare the IP address of posters as well as the contents of their posts against local and remote blacklists. Good defense against spam bots", "typo會根據張貼者IP的位址內容還有黑名單來有效防止垃圾郵件。好的防禦可以抑制垃圾郵寄"
+  l.store "Enabling spam protection will make typo compare the IP address of posters as well as the contents of their posts against local and remote blacklists. Good defense against spam bots", "typo会根据发帖者IP的地址和黑名单來有效防止垃圾邮件。好的防御可以抑制垃圾邮件"
   l.store "Enable spam protection", "有效防止垃圾郵件"
   l.store "Akismet Key", "Akismet鍵"
-  l.store "Typo can (optionally) use the %s spam-filtering service.  You need to register with Akismet and receive an API key before you can use their service.  If you have an Akismet key, enter it here", "Typo隨意的使用 %s 篩選垃圾郵件服務。"
+  l.store "Typo can (optionally) use the %s spam-filtering service.  You need to register with Akismet and receive an API key before you can use their service.  If you have an Akismet key, enter it here", "Typo隨意的使用 %s 过滤垃圾邮件的服务。"
   l.store "Disable trackbacks site-wide", ""
-  l.store "This setting allows you to disable trackbacks for every article in your blog.  It won't remove existing trackbacks, but it will prevent any further attempt to add a trackback anywhere on your blog.", "此設定可以讓你部落格裡的文章停止引用，這個舉動並不會刪除存在的引用，但是會阻止將來你要試圖增加的引用"
-  l.store "Disable comments after", "在失效的評論之後"
-  l.store "days", "日期"
-  l.store "Set to 0 to never disable comments", "設定0為絕不失效的評論"
-  l.store "Max Links", "最大的連結值"
+  l.store "This setting allows you to disable trackbacks for every article in your blog.  It won't remove existing trackbacks, but it will prevent any further attempt to add a trackback anywhere on your blog.", "此设定可以让你的博客里的文章停止引用，这一动作并不会删除存在的引用，但是禁止在此后添加引用"
+  l.store "Disable comments after", "禁止评论"
+  l.store "days", "天前发表文章"
+  l.store "Set to 0 to never disable comments", "设为0时不禁止"
+  l.store "Max Links", "最大的链接数"
   l.store "Typo will automatically reject comments and trackbacks which contain over a certain amount of links in them", "Typo會自動回絕評論和引用，包含某些可靠的連結總數"
-  l.store "Set to 0 to never reject comments", "設定0回絕不回絕的評論"
+  l.store "Set to 0 to never reject comments", "设为0不拒绝评论"
   l.store "Feedback settings", ""
 
   # app/views/admin/settings/index.html.erb
-  l.store "Your blog", "你的部落格"
-  l.store "Blog name", "部落格名稱"
-  l.store "Blog subtitle", "副標題"
-  l.store "Blog URL", "部落格URL"
-  l.store "Language", "言語"
+  l.store "Your blog", "你的博客"
+  l.store "Blog name", "博客名称"
+  l.store "Blog subtitle", "副标题"
+  l.store "Blog URL", "博客URL"
+  l.store "Language", "语言"
   l.store "Allow users to register", ""
   l.store "You can allow users to register to your blog. By default, they will register as contributors, an unpriviledged account level which grant them no rights but own a profile on the site. If you don't want users to register, you can thus add them by yourself in the users part of this admin.", ""
   l.store "Items to display in admin lists", ""
   l.store "Publishing options", ""
-  l.store "Display", "顯示"
-  l.store "articles on my homepage by default", "預設的首頁文章"
-  l.store "articles in my news feed by default", "預設的feed文章"
-  l.store "Show full article on feed", "顯示全部feed文章"
+  l.store "Display", "显示"
+  l.store "articles on my homepage by default", "预设为首页的文章"
+  l.store "articles in my news feed by default", "预设的feed文章"
+  l.store "Show full article on feed", "预设全部feed文章"
   l.store "Feedburner ID", ""
-  l.store "General settings", "一般設定"
+  l.store "General settings", "一般设定"
   l.store "You can use your Google Feedburner account instead of Typo feed URL. To enable this, fill this form with your Feedburner ID.", ""
 
   # app/views/admin/settings/seo.html.erb
@@ -412,46 +412,46 @@ Localization.define("zh_TW") do |l|
   l.store "at the bottom of each of your post in the RSS feed", ""
 
   # app/views/admin/settings/update_database.html.erb
-  l.store "Information", "資訊"
-  l.store "Current database version", "當前的資料庫版本"
-  l.store "New database version", "新資料庫版本"
-  l.store "Your database supports migrations", "你的資料庫支援移動"
-  l.store "Needed migrations", "必要的移動"
-  l.store "You are up to date!", "你現在是最新的狀態"
-  l.store "Update database now", "現在更新資料庫"
+  l.store "Information", "详细信息"
+  l.store "Current database version", "当前数据库版本"
+  l.store "New database version", "新数据库版本"
+  l.store "Your database supports migrations", "你的数据库不支持 Migration 升级"
+  l.store "Needed migrations", "必要的Migration 升级"
+  l.store "You are up to date!", "你已升级到最新版本"
+  l.store "Update database now", "开始更新数据库"
   l.store "may take a moment", "需要稍等一下"
-  l.store "Database migration", "資料庫移動"
-  l.store "yes", "確認"
+  l.store "Database migration", "数据库 Migration 升级"
+  l.store "yes", "确定"
   l.store "no", "取消"
 
   # app/views/admin/settings/write.html.erb
-  l.store "Send trackbacks", "引用發送"
-  l.store "When publishing articles, Typo can send trackbacks to websites that you link to. This should be disabled for private blogs as it will leak non-public information to sites that you're discussing. For public blogs, there's no real point in disabling this.", "當公開的文章或引用會洩漏你私人的資訊時，對於不公開的部落格typo會終止連結。在公開的部落格並無此選項"
-  l.store "URLs to ping automatically", "URL自動地Ping"
-  l.store "Latitude, Longitude", "緯度,經度"
-  l.store "your lattitude and longitude", "你的緯度、經度"
-  l.store "exemple", "舉例"
-  l.store "Write", "寫入"
+  l.store "Send trackbacks", "引用发送"
+  l.store "When publishing articles, Typo can send trackbacks to websites that you link to. This should be disabled for private blogs as it will leak non-public information to sites that you're discussing. For public blogs, there's no real point in disabling this.", "当公开的文章或引用会洩漏你私人信息时，对于不公开的博客typo会取消链接。在公开的博客中并无此选项"
+  l.store "URLs to ping automatically", "自动Ping URL"
+  l.store "Latitude, Longitude", "纬度,经度"
+  l.store "your lattitude and longitude", "你的纬度、经度"
+  l.store "exemple", "举例"
+  l.store "Write", "写入"
 
   # app/views/admin/sidebar/_availables.html.erb
-  l.store "You have no plugins installed", "你沒有plugins可以安置"
+  l.store "You have no plugins installed", "你没有安装plugins"
 
   # app/views/admin/sidebar/_publish.html.erb
-  l.store "Changes published", "公開變更"
+  l.store "Changes published", "确定发布"
 
   # app/views/admin/sidebar/_target.html.erb
   l.store "Drag some plugins here to fill your sidebar", "拖曳一些plugins填滿你的sidebar"
 
   # app/views/admin/sidebar/index.html.erb
-  l.store "Drag and drop to change the sidebar items displayed on this blog.  To remove items from the sidebar just click remove  Changes are saved immediately, but not activated until you click the 'Publish' button", "在這個部落格顯示拖曳改變的sidebar選項。從sidebar選項移除會立即存檔，但是不會執行直到你輸入<公開>鍵"
-  l.store "Available Items", "可用的項目"
-  l.store "Active Sidebar items", "有效的側邊欄項目"
-  l.store "Get more plugins", ""
-  l.store "Sidebar", ""
-  l.store "Publish changes", "公開變更"
+  l.store "Drag and drop to change the sidebar items displayed on this blog.  To remove items from the sidebar just click remove  Changes are saved immediately, but not activated until you click the 'Publish' button", "改变博客的边栏。点击删除可以从边栏中移除该组件，您的操作在中途会保存草稿快照，但你不点击<保存设置>不会对外生效"
+  l.store "Available Items", "可用的组件"
+  l.store "Active Sidebar items", "已激活的组件"
+  l.store "Get more plugins", "获取更多组件"
+  l.store "Sidebar", "边栏"
+  l.store "Publish changes", "保存设置"
 
   # app/views/admin/tags/_form.html.erb
-  l.store "Display name", "暱稱"
+  l.store "Display name", "昵称"
 
   # app/views/admin/tags/destroy.html.erb
   l.store "Are you sure you want to delete the tag", ""
@@ -459,11 +459,11 @@ Localization.define("zh_TW") do |l|
 
   # app/views/admin/tags/edit.html.erb
   l.store "Editing ", ""
-  l.store "Back to tags list", ""
+  l.store "Back to tags list", "返回Tag 列表"
 
   # app/views/admin/tags/index.html.erb
-  l.store "Display Name", ""
-  l.store "Manage tags", ""
+  l.store "Display Name", "昵称"
+  l.store "Manage tags", "管理 Tag"
 
   # app/views/admin/themes/catalogue.html.erb
   l.store "Sorry the theme catalogue is not available", ""
@@ -473,12 +473,12 @@ Localization.define("zh_TW") do |l|
   l.store "Theme editor", ""
 
   # app/views/admin/themes/index.html.erb
-  l.store "Active theme", "執行中主題"
-  l.store "Get more themes", ""
+  l.store "Active theme", "生效的风格"
+  l.store "Get more themes", "获取更多风格"
   l.store "You can download third party themes from officially supported %s ", ""
   l.store "Typogarden", ""
   l.store "To install a theme you  just need to upload the theme folder into your themes directory. Once a theme is uploaded, you should see it on this page.", ""
-  l.store "Choose a theme", "選擇主題"
+  l.store "Choose a theme", "选择风格"
 
   # app/views/admin/users/_form.html.erb
   l.store "Account settings", ""
@@ -522,52 +522,55 @@ Localization.define("zh_TW") do |l|
 
   # app/views/admin/users/index.html.erb
   l.store "New User", "新的使用者"
-  l.store "Comments", "評論"
+  l.store "Comments", "评论"
   l.store "State", ""
   l.store "%s user", ""
 
   # app/views/admin/users/new.html.erb
-  l.store "Add User", ""
+  l.store "Add User", "新增用户"
 
   # app/views/articles/_article.html.erb
-  l.store "Posted by", "貼上"
-  l.store "Continue reading", ""
+  l.store "Posted by", "发表"
+  l.store "Published on", "发表于"
+  l.store "Continue reading", "阅读全文"
+  l.store "under", "于分类"
+  l.store "at", " , "
 
   # app/views/articles/_comment.html.erb
-  l.store "said", "發言"
+  l.store "said", "说"
   l.store "This comment has been flagged for moderator approval.  It won't appear on this blog until the author approves it", "這篇評論被標示為版主所允許的。他不會在部落格顯示直到版主承認他。"
 
   # app/views/articles/_comment_box.html.erb
-  l.store "Your name", "你的名稱"
+  l.store "Your name", "昵称"
   l.store "Your email", "你的email"
-  l.store "Your message", "你的訊息"
-  l.store "Comment Markup Help", "評論顯示協助"
-  l.store "Preview comment", "預覽評論"
-  l.store "leave url/email", ""
+  l.store "Your message", "回复内容"
+  l.store "Comment Markup Help", "评论显示帮助"
+  l.store "Preview comment", "预览评论"
+  l.store "leave url/email", "请留下你的博客地址或 E-mail"
 
   # app/views/articles/_comment_failed.html.erb
-  l.store "Oops, something wrong happened, the comment could not be saved", ""
+  l.store "Oops, something wrong happened, the comment could not be saved", " >oo< ，发生了点小问题，评论保存失败了"
 
   # app/views/articles/_trackback.html.erb
   l.store "From", "From"
 
   # app/views/articles/archives.html.erb
-  l.store "No articles found", "沒有找到任何文章"
+  l.store "No articles found", "没有找到任何文章"
   l.store "posted in", ""
 
   # app/views/articles/comment_preview.html.erb
-  l.store "is about to say", "這是關於~~"
+  l.store "is about to say", "这是关于~~"
 
   # app/views/articles/groupings.html.erb
   l.store "There are", "有"
 
   # app/views/articles/read.html.erb
-  l.store "Leave a response", "離開一個回應"
+  l.store "Leave a response", "发表一个回复"
   l.store "Trackbacks", "引用"
-  l.store "Use the following link to trackback from your own site", "從你所屬的網點用隨後的連結去引用"
-  l.store "RSS feed for this post", "為本篇提供RSS"
+  l.store "Use the following link to trackback from your own site", "你的首页"
+  l.store "RSS feed for this post", "为本篇提供RSS"
   l.store "trackback uri", "引用URL"
-  l.store "Comments are disabled", "評論停用"
+  l.store "Comments are disabled", "该文章禁止评论"
 
   # app/views/authors/show.html.erb
   l.store "Web site:", ""
@@ -586,13 +589,16 @@ Localization.define("zh_TW") do |l|
   l.store "%s &raquo;", ""
   l.store "is proudly powered by", ""
   l.store "Dashboard", ""
+  l.store "Choose theme", "选择风格"
+  l.store "Customize sidebar", "定制边栏"
+
 
   # app/views/setup/index.html.erb
-  l.store "Welcome", ""
+  l.store "Welcome", "欢迎"
   l.store "Welcome to your %s blog setup. Just fill in your blog title and your email, and Typo will take care of everything else", ""
 
   # app/views/shared/_confirm.html.erb
-  l.store "Congratulation!", ""
+  l.store "Congratulation!", "恭喜"
   l.store "You have successfully signed up", ""
   l.store "<strong>Login:</strong> %s", ""
   l.store "<strong>Password:</strong> %s", ""
@@ -639,7 +645,7 @@ Localization.define("zh_TW") do |l|
   l.store "Searching", ""
 
   # themes/dirtylicious/layouts/default.html.erb
-  l.store "Home", ""
+  l.store "Home", "首页"
   l.store "About", ""
   l.store "Designed by %s ported to typo by %s ", ""
 
@@ -668,7 +674,7 @@ Localization.define("zh_TW") do |l|
   # themes/true-blue-3/views/articles/read.html.erb
   l.store "If you liked this article you can %s", ""
   l.store "add me to Twitter", ""
-  l.store "Trackbacks for", "作為引用"
+  l.store "Trackbacks for", "作为引用"
 
   # themes/true-blue-3/views/articles/search.html.erb
   l.store "Search results for:", ""
@@ -681,7 +687,7 @@ Localization.define("zh_TW") do |l|
   l.store "Next", ""
 
   # vendor/plugins/archives_sidebar/views/content.rhtml
-  l.store "Archives", "歸檔"
+  l.store "Archives", "归档"
 
   # vendor/plugins/authors_sidebar/views/content.rhtml
   l.store "Authors", ""
@@ -718,9 +724,9 @@ Localization.define("zh_TW") do |l|
   l.store "Blog advanced settings", "部落格進階設定"
   l.store "Blog settings", "部落格設定"
   l.store "Body", "本文主體"
-  l.store "Cache", "儲存"
-  l.store "Cache was cleared", "cache已清除"
-  l.store "Category", "分類"
+  l.store "Cache", "缓存"
+  l.store "Cache was cleared", "缓存已清空"
+  l.store "Category", "分类"
   l.store "Category could not be created.", "分類不能被設定"
   l.store "Category title", "分類標題"
   l.store "Category was successfully created.", "分類已成功設定"
@@ -742,7 +748,7 @@ Localization.define("zh_TW") do |l|
   l.store "Currently this article is listed in following categories", "將本篇文章列在以下分類中"
   l.store "Customize Sidebar", "定製側邊欄"
   l.store "Delete this filter", "刪除此篩選器"
-  l.store "Design", "設計"
+  l.store "Design", "个性化"
   l.store "Desired login", "登入名稱"
   l.store "Discuss", "詳述"
   l.store "Do you want to go to your blog?", "進入您的部落格？"
@@ -761,7 +767,7 @@ Localization.define("zh_TW") do |l|
   l.store "Editing pattern", "修改樣式"
   l.store "Editing textfilter", "修改本文篩選器"
   l.store "Editing trackback", "修改引用"
-  l.store "Empty Fragment Cache", "清空零碎儲存體"
+  l.store "Empty Fragment Cache", "清空零碎缓存"
   l.store "Enable plugins", "Enable plugins"
   l.store "Explicit", "Explicit"
   l.store "Extended Content", "擴增內容"
