@@ -219,10 +219,11 @@ body {
   clear: both;
 }
 .container-fluid > .sidebar {
-  position: absolute;
+  float:left;
   top: 0;
   left: 20px;
   width: 220px;
+  /*position: absolute;*/
 }
 .container-fluid > .content {
   margin-left: 240px;

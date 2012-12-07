@@ -97,7 +97,11 @@ class ArticlesController < ContentController
     r = Redirect.find_by_from_path(from.join("/"))
     return redirect_to r.full_to_path, :status => 301 if r
 
-    render "errors/article_removed", :status => 404
+    if @parttern_active
+      render "errors/article_removed", :status => 410
+    else
+      render "errors/404", :status => 404
+    end
   end
 
 
@@ -131,11 +135,15 @@ class ArticlesController < ContentController
   end
 
   def view_page
-    if(@page = Page.find_by_name(Array(params[:name]).map { |c| c }.join("/"))) && @page.published?
-      @page_title = @page.title
-      @description = (this_blog.meta_description.empty?) ? "" : this_blog.meta_description
-      @keywords = (this_blog.meta_keywords.empty?) ? "" : this_blog.meta_keywords
-      @canonical_url = @page.permalink_url
+    if(@page = Page.find_by_name(Array(params[:name]).map { |c| c }.join("/")))
+      if @page.published?
+        @page_title = @page.title
+        @description = (this_blog.meta_description.empty?) ? "" : this_blog.meta_description
+        @keywords = (this_blog.meta_keywords.empty?) ? "" : this_blog.meta_keywords
+        @canonical_url = @page.permalink_url
+      else
+        render "errors/article_removed", :status => 410
+      end
     else
       render "errors/404", :status => 404
     end
@@ -259,6 +267,7 @@ class ArticlesController < ContentController
     specs.delete('')
 
     return if parts.length != specs.length
+    @parttern_active = true
 
     article_params = {}
 

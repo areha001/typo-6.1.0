@@ -73,9 +73,8 @@ Localization.define("zh_TW") do |l|
 
   # app/controllers/articles_controller.rb
   l.store "No posts found...", "未找到文章"
-  l.store "Archives for", ""
-  l.store "Archives for ", ""
-  l.store ", Articles for ", ""
+  l.store "Archives for", "归档"
+  l.store ", Articles for ", "，文章"
 
   # app/controllers/grouping_controller.rb
   l.store "page", "页面"
@@ -111,8 +110,8 @@ Localization.define("zh_TW") do |l|
   l.store "Destroy this draft", "删除此草稿"
 
   # app/helpers/admin/feedback_helper.rb
-  l.store "Show conversation", ""
-  l.store "Flag as %s", ""
+  l.store "Show conversation", "显示该文章下所有评论"
+  l.store "Flag as %s", "标记为%s"
 
   # app/helpers/application_helper.rb
   l.store "%%a, %%d %%b %%Y %%H:%%M:%%S GMT", ""
@@ -153,15 +152,15 @@ Localization.define("zh_TW") do |l|
   l.store "Spam", ""
 
   # app/views/accounts/login.html.erb
-  l.store "I've lost my password", ""
+  l.store "I've lost my password", "忘记密码"
   l.store "Login", "登录"
   l.store "Password", "密码"
-  l.store "Remember me", ""
-  l.store "Submit", ""
-  l.store "Back to ", ""
+  l.store "Remember me", "记住我"
+  l.store "Submit", "登录"
+  l.store "Back to ", "返回"
 
   # app/views/accounts/recover_password.html.erb
-  l.store "Username or email", ""
+  l.store "Username or email", "用户名或email"
 
   # app/views/accounts/signup.html.erb
   l.store "Create an account", "创建一个帐号"
@@ -243,13 +242,17 @@ Localization.define("zh_TW") do |l|
   l.store "You have no internet connection", "你没有连接到网络"
 
   # app/views/admin/dashboard/_overview.html.erb
-  l.store "This place gives you a quick overview of what happens on your Typo blog and what you can do. Maybe will you want to %s, %s or %s.", "這個地方給你一個快速的綜覽，讓你知道你的部落格發生甚麼事情了。也許你想要%s， %s或%s"
-  l.store "update your profile or change your password", "更新資料或者修改密碼"
-  l.store "You can also do a bit of design, %s or %s.", "你也可以作一些設計, %s或%s."
-  l.store "change your blog presentation", "修改你的部落格外觀"
-  l.store "enable plugins", "啟動plugins"
+  l.store "This place gives you a quick overview of what happens on your Typo blog and what you can do. Maybe will you want to %s, %s or %s.", "以下是本博客的最新动态。你可以%s， %s或%s"
+  l.store "update your profile or change your password", "更新资料或者修改密码"
+  l.store "You can also do a bit of design, %s or %s.", "你也可以作一些设计, %s或%s."
+  l.store "change your blog presentation", "修改你的博客风格"
+  l.store "enable plugins", "配置组件"
   l.store "write a post", "写一篇文章"
-  l.store "write a page", "新建一个頁面"
+  l.store "write a page", "新建一个栏目页"
+  l.store "read our documentation",  "看看我们的帮助文档"
+  l.store "download some plugins",  "下载新的组件"
+  l.store "If you need help, %s. You can also %s to customize your Typo blog.",  "如果你需要帮助，你可以%s  也可以来定制你的博客"
+  
 
   # app/views/admin/dashboard/_popular.html.erb
   l.store "Most popular", "最受欢迎"
@@ -267,45 +270,46 @@ Localization.define("zh_TW") do |l|
   l.store "Welcome back, %s!", "欢迎回来， %s！"
   l.store "%d articles and %d comments were posted since your last connexion", "这次回来新增了 %d 篇文章和 %d 条回复"
   l.store "You're running Typo %s", "你现在正在使用Typo %s"
-  l.store "Total posts : %d", "文章总数：%d"
-  l.store "Your posts : %d", "你的文章：%d"
-  l.store "Total comments : %d", "评论总数：%d"
-  l.store "Spam comments : %d", "垃圾评论：%d"
+  l.store "Content", "内容"
+  l.store "Total posts:", "文章总数："
+  l.store "Your posts:", "你的文章："
+  l.store "Total comments:", "评论总数："
+  l.store "Spam comments:", "垃圾评论："
 
   # app/views/admin/feedback/_button.html.erb
-  l.store "Select action", ""
-  l.store "Delete Checked Items", ""
-  l.store "Delete all spam", ""
-  l.store "Mark Checked Items as Spam", ""
-  l.store "Mark Checked Items as Ham", ""
-  l.store "All comments", ""
+  l.store "Select action", "选择操作"
+  l.store "Delete Checked Items", "删除选中项"
+  l.store "Delete all spam", "删除所有标记为spam的"
+  l.store "Mark Checked Items as Spam", "将选中项标记为spam"
+  l.store "Mark Checked Items as Ham", "将选中项标记为ham"
+  l.store "All comments", "所有评论"
   l.store "Limit to ham", ""
-  l.store "Unapproved comments", ""
+  l.store "Unapproved comments", "未批准的评论"
   l.store "Limit to spam", "限制垃圾邮件"
 
   # app/views/admin/feedback/_form.html.erb
-  l.store "Add a comment", ""
+  l.store "Add a comment", "回复"
   l.store "Url", "Url"
 
   # app/views/admin/feedback/_spam.html.erb
-  l.store "This comment by <strong>%s</strong> was flagged as spam, %s?", ""
+  l.store "This comment by <strong>%s</strong> was flagged as spam, %s?", "这个由<strong>%s</strong>发表的评论已被标记为 spam , %s?"
 
   # app/views/admin/feedback/article.html.erb
-  l.store "Comments for %s", ""
-  l.store "Status", "身分"
-  l.store "Comment Author", ""
-  l.store "Comment", ""
+  l.store "Comments for %s", "%s 的评论"
+  l.store "Status", "状态"
+  l.store "Comment Author", "评论者"
+  l.store "Comment", "评论"
 
   # app/views/admin/feedback/edit.html.erb
   l.store "Comments for", "发表评论"
 
   # app/views/admin/feedback/index.html.erb
   l.store "Search Comments and Trackbacks that contain", ""
-  l.store "Article", ""
+  l.store "Article", "文章"
 
   # app/views/admin/pages/_form.html.erb
-  l.store "Online", "在线"
-  l.store "Page settings", ""
+  l.store "Online", "对外展示"
+  l.store "Page settings", "页面设置"
   l.store "Permanent link", ""
 
   # app/views/admin/pages/destroy.html.erb
@@ -314,11 +318,11 @@ Localization.define("zh_TW") do |l|
   l.store "Delete this page", "删除此页"
 
   # app/views/admin/pages/index.html.erb
-  l.store "New Page", ""
-  l.store "Manage pages", ""
+  l.store "New Page", "新建页面"
+  l.store "Manage pages", "管理页面"
 
   # app/views/admin/profiles/index.html.erb
-  l.store "Your profile", ""
+  l.store "Your profile", "个人资料"
 
   # app/views/admin/resources/_mime_edit.html.erb
   l.store "Content Type", "內容类型"
@@ -347,7 +351,7 @@ Localization.define("zh_TW") do |l|
   l.store "Filename", "文件名"
 
   # app/views/admin/settings/_submit.html.erb
-  l.store "Update settings", ""
+  l.store "Update settings", "保存设置"
 
   # app/views/admin/settings/feedback.html.erb
   l.store "Enable comments by default", "默认可以回复"
@@ -466,51 +470,51 @@ Localization.define("zh_TW") do |l|
   l.store "Manage tags", "管理 Tag"
 
   # app/views/admin/themes/catalogue.html.erb
-  l.store "Sorry the theme catalogue is not available", ""
-  l.store "Theme catalogue", ""
+  l.store "Sorry the theme catalogue is not available", "风格目录暂时不可用"
+  l.store "Theme catalogue", "风格目录"
 
   # app/views/admin/themes/editor.html.erb
-  l.store "Theme editor", ""
+  l.store "Theme editor", "风格管理"
 
   # app/views/admin/themes/index.html.erb
   l.store "Active theme", "生效的风格"
   l.store "Get more themes", "获取更多风格"
-  l.store "You can download third party themes from officially supported %s ", ""
+  l.store "You can download third party themes from officially supported %s ", "你可以从官网上获取更多的第三方制作的风格 %s"
   l.store "Typogarden", ""
   l.store "To install a theme you  just need to upload the theme folder into your themes directory. Once a theme is uploaded, you should see it on this page.", ""
   l.store "Choose a theme", "选择风格"
 
   # app/views/admin/users/_form.html.erb
-  l.store "Account settings", ""
-  l.store "Password confirmation", ""
-  l.store "Profile", ""
-  l.store "User's status", ""
-  l.store "Active", ""
-  l.store "Inactive", ""
-  l.store "Profile Settings", ""
+  l.store "Account settings", "用户设定"
+  l.store "Password confirmation", "密码确认"
+  l.store "Profile", "个人资料"
+  l.store "User's status", "用户状态"
+  l.store "Active", "活动的"
+  l.store "Inactive", "非活动的"
+  l.store "Profile Settings", "个人资料设定"
   l.store "Firstname", ""
   l.store "Lastname", ""
-  l.store "Nickname", ""
-  l.store "Editor", ""
-  l.store "Use simple editor", ""
-  l.store "Use visual rich editor", ""
-  l.store "Send notification messages via email", "經由email發出通知訊息"
-  l.store "Send notification messages when new articles are posted", "新的文章貼上時發出通知訊息"
-  l.store "Send notification messages when comments are posted", "新的評錀貼上時發出通知訊息"
-  l.store "Contact Options", ""
-  l.store "Your site", ""
-  l.store "display url on public profile", ""
-  l.store "Your MSN", ""
-  l.store "display MSN ID on public profile", ""
-  l.store "Your Yahoo ID", ""
-  l.store "display Yahoo! ID on public profile", ""
-  l.store "Your Jabber ID", ""
-  l.store "display Jabber ID on public profile", ""
-  l.store "Your AIM id", ""
-  l.store "display AIM ID on public profile", ""
-  l.store "Your Twitter username", ""
-  l.store "display twitter on public profile", ""
-  l.store "Tell us more about you", ""
+  l.store "Nickname", "昵称"
+  l.store "Editor", "编辑器"
+  l.store "Use simple editor", "使用简易编辑器"
+  l.store "Use visual rich editor", "使用可视化富编辑器"
+  l.store "Send notification messages via email", "email 通知"
+  l.store "Send notification messages when new articles are posted", "有新文章时"
+  l.store "Send notification messages when comments are posted", "有新评论时"
+  l.store "Contact Options", "联系方式"
+  l.store "Your site", "你的主页"
+  l.store "display url on public profile", "公开显示主页"
+  l.store "Your MSN", "MSN"
+  l.store "display MSN ID on public profile", "公开MSN"
+  l.store "Your Yahoo ID", "Yahoo ID"
+  l.store "display Yahoo! ID on public profile", "公开Yahoo ID"
+  l.store "Your Jabber ID", "Jabber ID"
+  l.store "display Jabber ID on public profile", "公开Jabber ID"
+  l.store "Your AIM id", "AIM ID"
+  l.store "display AIM ID on public profile", "公开AIM ID"
+  l.store "Your Twitter username", "Twitter帐号"
+  l.store "display twitter on public profile", "公开Twitter帐号"
+  l.store "Tell us more about you", "简介"
 
   # app/views/admin/users/destroy.html.erb
   l.store "Really delete user", "確定刪除使用者"
@@ -518,12 +522,12 @@ Localization.define("zh_TW") do |l|
   l.store "Users", "使用者"
 
   # app/views/admin/users/edit.html.erb
-  l.store "Edit User", "修改使用者"
+  l.store "Edit User", "编辑用户信息"
 
   # app/views/admin/users/index.html.erb
-  l.store "New User", "新的使用者"
+  l.store "New User", "新增用户"
   l.store "Comments", "评论"
-  l.store "State", ""
+  l.store "State", "状态"
   l.store "%s user", ""
 
   # app/views/admin/users/new.html.erb
@@ -573,17 +577,17 @@ Localization.define("zh_TW") do |l|
   l.store "Comments are disabled", "该文章禁止评论"
 
   # app/views/authors/show.html.erb
-  l.store "Web site:", ""
+  l.store "Web site:", "主页"
   l.store "MSN:", ""
   l.store "Yahoo:", ""
   l.store "Jabber:", ""
   l.store "AIM:", ""
   l.store "Twitter:", ""
-  l.store "About %s", ""
-  l.store "This author has not published any article yet", ""
+  l.store "About %s", "简介"
+  l.store "This author has not published any article yet", "他还没有发表任何文章"
 
   # app/views/comments/show.html.erb
-  l.store "This comment has been flagged for moderator approval.", ""
+  l.store "This comment has been flagged for moderator approval.", "此评论已被审核"
 
   # app/views/layouts/administration.html.erb
   l.store "%s &raquo;", ""
@@ -591,6 +595,28 @@ Localization.define("zh_TW") do |l|
   l.store "Dashboard", ""
   l.store "Choose theme", "选择风格"
   l.store "Customize sidebar", "定制边栏"
+  l.store "All Articles", "所有文章"
+  l.store "All Articles", "所有文章"
+  l.store "Article Types", "文章分类"
+  l.store "All Pages", "栏目页列表"
+  l.store "New Page", "新建栏目页"
+  l.store "Media Library", "附件资料管理"
+  l.store "Global SEO settings", "SEO 设置"
+  l.store "Permalinks", "链接URL形式"
+  l.store "Titles", "页面Title设置"
+  l.store "Error messages", "404页面"
+  l.store "Redirects", "短链接管理"
+
+
+  # app/views/admin/seo/titles.html.erb
+  l.store "Title template", "Title 模版"
+  l.store "Description  template", "Description 模版"
+  l.store "Paginated archives", "分页归档浏览"
+  l.store "Dated archives", "日期归档浏览"
+  l.store "Search results", "搜索页"
+  l.store "用户页", "Author page"
+
+ 
 
 
   # app/views/setup/index.html.erb
@@ -599,10 +625,10 @@ Localization.define("zh_TW") do |l|
 
   # app/views/shared/_confirm.html.erb
   l.store "Congratulation!", "恭喜"
-  l.store "You have successfully signed up", ""
-  l.store "<strong>Login:</strong> %s", ""
-  l.store "<strong>Password:</strong> %s", ""
-  l.store "Don't lose the mail sent at %s or you won't be able to login anymore", ""
+  l.store "You have successfully signed up", "注册成功"
+  l.store "<strong>Login:</strong> %s", "<strong>帐号：</strong>"
+  l.store "<strong>Password:</strong> %s", "<strong>密码：</strong>"
+  l.store "Don't lose the mail sent at %s or you won't be able to login anymore", "请牢记此邮件中的信息，以免影响到您正常登录。"
   l.store "Proceed to %s", ""
   l.store "admin", ""
 
@@ -693,7 +719,7 @@ Localization.define("zh_TW") do |l|
   l.store "Authors", ""
 
   # vendor/plugins/xml_sidebar/views/content.rhtml
-  l.store "Syndicate", "整合發表"
+  l.store "Syndicate", "整合发表"
   l.store "Category %s", ""
   l.store "Tag %s", ""
 
@@ -708,9 +734,9 @@ Localization.define("zh_TW") do |l|
   l.store "Add new user", "新增使用者"
   l.store "Add pattern", "新增樣式"
   l.store "Advanced settings", "進階設定"
-  l.store "Allow non-ajax comments", "允許non-ajax評論"
+  l.store "Allow non-ajax comments", "允许非ajax评论"
   l.store "Are you sure you want to delete this filter", "你確定要刪除此篩選器？"
-  l.store "Are you sure you want to delete this item?", "確認刪除？"
+  l.store "Are you sure you want to delete this item?", "确认删除？"
   l.store "Article Attachments", "文章附件"
   l.store "Article Body", "文章主體"
   l.store "Article Content", " 文章內容"
@@ -732,7 +758,7 @@ Localization.define("zh_TW") do |l|
   l.store "Category was successfully created.", "分類已成功設定"
   l.store "Category was successfully updated.", "分類已成功更新"
   l.store "Change you blog presentation", "修改外觀"
-  l.store "Choose password", "密碼"
+  l.store "Choose password", "密码"
   l.store "Comments and Trackbacks for", "作為評論和引用"
   l.store "Confirm password", "密碼確認"
   l.store "Copyright Information", "著作權資訊"
