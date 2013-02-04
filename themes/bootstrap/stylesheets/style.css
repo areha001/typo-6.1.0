@@ -18,7 +18,7 @@ p.subtitle {
 }
 
 #logo {
-  margin-top: 20px;
+  margin-top: 0px;
   background: url("../../images/theme/bg2.jpg") top left no-repeat;
   padding-top: 280px;
 }
@@ -36,9 +36,9 @@ p.subtitle {
 }
 
 #main {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 20px;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 30px;
   background: #fff;
   width: 980px;
