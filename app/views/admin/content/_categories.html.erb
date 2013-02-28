@@ -1,3 +1,4 @@
+<div id="category_list">
 <%- article_categories = @article ? @article.categories.map(&:id) : [] -%>
 <%- Category.all.each do |cat| %>
 <ul class='inputs-list'>
@@ -6,4 +7,6 @@
 	</li>
 </ul>
 <% end -%>
-<%= link_to _("New Category"), {:controller => 'admin/categories', :action => 'new' }, :class => 'btn info' %>
+<%= link_to _("New Category"), {:controller => 'admin/categories', :action => 'new' }, {:target=>'_blank' ,:class => 'btn info'} %>
+<%= link_to_remote _("Refresh"), :update=>"category_list", :url=>{:controller => 'admin/content', :action => 'refresh_category_list' , :id=>@article.id} ,  :html=>{ :class => 'btn info'} %>
+</div>

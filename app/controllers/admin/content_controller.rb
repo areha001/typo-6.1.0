@@ -65,6 +65,14 @@ class Admin::ContentController < Admin::BaseController
   alias_method :resource_add,    :category_add
   alias_method :resource_remove, :category_add
 
+  def refresh_category_list
+    @article = Article.new
+    unless params[:id] == nil
+      @article = Article.find(params[:id])
+    end
+     render :partial => 'admin/content/categories'
+  end
+  
   def attachment_box_add
     render :update do |page|
       page["attachment_add_#{params[:id]}"].remove
