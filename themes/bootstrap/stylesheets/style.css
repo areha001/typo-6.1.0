@@ -97,6 +97,10 @@ pre{
 .CodeRay pre{
     border:none;
 }
+.codeshere{
+    padding:0 1px 1px  0;
+}
+
 [class*="span"] {
   float: left;
   margin-left: 0px\9;
